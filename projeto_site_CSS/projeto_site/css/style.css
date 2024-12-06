@@ -1,0 +1,286 @@
+body{
+    background-color: #111822;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu-principal ul li a{
+    background-color: #1d719d;
+    color: bisque;
+    border-radius: 3px;
+    border-bottom: 3px solid #1d719d ;
+    padding: 2px -30px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+#menu-principal ul li{
+    display: inline;
+}
+ 
+#menu-principal a {
+    display: block;
+    float: left;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 50px;
+    padding: 5px;
+}
+#menu-principal ul {
+    display: flex;
+    list-style-type: none ;
+    align-items: center;
+}
+
+h1#paragrafo-principal
+h1#paragrafo-secundario{
+background-color: #333740;
+color: #5f85b9;
+font-size:30px;
+padding: 50px;
+margin: 100px;
+text-align: center;
+}
+
+.conteudo{
+text-align: center;
+padding: 0px 50px;
+font-size: 20px;
+}
+
+
+caption{
+    background-color: #333740;
+    color: #111822;
+}
+table{
+    background-color: #5f85b9;
+    color: black;
+    border-collapse: collapse;
+    margin: auto;
+}
+table td tr{
+border: 1px solid #111822;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+}
+
+tr{
+    font-weight: bold;
+}
+tr:hover{
+    background-color: #111822;
+    color: bisque;
+    cursor: pointer;
+}
+
+#titulo{
+    margin: 10px;
+    padding: 0 50px;
+    font-size:large;
+    background-color:#333740 ;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+ .voltar{
+    background-color: #5f85b9;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    padding: 0px 50px;
+    border-radius: 3px;
+    margin: 10px;
+    cursor:pointer;
+ }
+ .voltar:hover{
+    background-color:#11212D;
+    color: #ffffff;
+ }
+
+ footer{
+    background-color: rgb(54, 66, 59);
+    color: azure;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+#conteudo-pag2{
+    float: left;
+    width: 280px;
+}
+#bd-home #conteudo-pag2{
+    background-color: #2c323a;
+    color: black;
+}
+#link-nasa.link{
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 0 3px;
+}
+p{
+    text-align: center;
+    padding: 0 30px 0 30px;
+    margin: 20px 10px;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    padding: 0 10px;
+}
+
+ol{
+background-color: #223755;   
+ color: #111822;
+    border-radius: 3px;
+    font-size: bold;
+}
+li.lista{
+    background-color: #5f85b9;
+    font-size: 20px;
+}
+#home{
+    margin: 0 50px 0 50px;
+    text-align: center;
+    padding: 50px;
+    text-decoration: none;
+}
+a.voltar{
+    margin: 20px;
+}
+
+#index{
+    margin: 20px;
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+h1#humanos.conteudo{
+    margin: 30px;
+    padding: 0 50px;
+    font-size:large;
+    background-color:#333740 ;
+    left: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h1#animal.conteudo{
+    margin: 30px;
+    padding: 0 50px;
+    font-size:large;
+    background-color:#333740 ;
+    left: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+.link{
+color: azure;
+}
+a{
+    color: black;
+}
+
+#lembrete{
+    text-align: center;
+    background-color: #5f85b9;
+}
+ul#ul{
+    text-align: center;
+    color: #111822;
+    background-color: #ffffff;
+    padding: 0 20px;
+    list-style-type: none;
+}
+
+h1#tabela.elementos{
+    color: white;
+}
+
+#comentario{
+    font-size: 25px;
+}
+
+textarea{
+    text-align: center;
+}
+/* feedback(imagem de fundo)*/
+body#body{ 
+    background-image: url(../imagens/terra.jpg);
+}
+/*Voltar para o inicio*/
+  #home img{
+    width: 30px;
+    height: 30px;
+    border-radius: 5%;
+    border: 5px solid white;
+  }
+
+  
+/* Barra de pesquisa*/
+  .container-pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px 20px;
+}
+
+.input-pesquisa {
+    width: 300px;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-pesquisa:focus {
+    border-color: #007BFF;
+    background-color: #3a6fb1;
+    outline: none;    
+}
+
+input.input-pesquisa{
+    background-color: rgba(23, 23, 65, 0.582);
+    color: white;
+}
+.botao-pesquisa {
+    background-color: #061629;
+    color:#f7fafd;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+div.container-pesquisa{
+    background-color: #3f4a5a;
+}
+
+.botao-pesquisa:hover {
+    background-color: #6a9bcf;
+    color: black;
+}
+
+.botao-pesquisa:active {
+    background-color: #004085;
+}
