@@ -1,0 +1,22 @@
+/*O body envolve tudo que aparece visualmente, exceto o título e o favicon*/
+body {
+    background-color: rgb(47, 79, 79);/*Cor de fundo da página*/
+    color: aliceblue; /*Cor das letras*/
+}
+a {
+    color: rgb(10, 34, 54);
+    background-color: cadetblue;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none; /*Retira o sublinhado do link*/
+}
+/*
+a:hover{
+    cursor: alias;
+    background-color:lightblue;
+    color: black;
+}*/
+/*Os ':' indica que o estilo só vai ser aplicado em determninada condição.*/
+a:visited {
+    color:rgb(255, 254, 254);
+}
