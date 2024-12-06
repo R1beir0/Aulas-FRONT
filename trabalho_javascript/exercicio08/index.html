@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 8</title>
+    <style>
+        p {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        /* altera a cor dos parágrafos para vermelho */
+        .vermelho {
+            color: red;
+        }
+
+        .div-item {
+            margin: 10px;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <button id="alterarCorParagrafos">Alterar cor dos parágrafos para vermelho</button>
+    <button id="alternarVisibilidadeDivs">Alternar visibilidade das divs</button>
+
+
+    <div>
+        <p>Parágrafo 1</p>
+        <p>Parágrafo 2</p>
+        <p>Parágrafo 3</p>
+        <p>Parágrafo 4</p>
+        <p>Parágrafo 5</p>
+        <p>Parágrafo 6</p>
+        <p>Parágrafo 7</p>
+        <p>Parágrafo 8</p>
+        <p>Parágrafo 9</p>
+        <p>Parágrafo 10</p>
+    </div>
+
+   
+    <div class="div-item">Div 1</div>
+    <div class="div-item">Div 2</div>
+    <div class="div-item">Div 3</div>
+    <div class="div-item">Div 4</div>
+    <div class="div-item">Div 5</div>
+    <div class="div-item">Div 6</div>
+    <div class="div-item">Div 7</div>
+    <div class="div-item">Div 8</div>
+    <div class="div-item">Div 9</div>
+    <div class="div-item">Div 10</div>
+
+    <script>
+        //  alterar cor dos parágrafos
+        document.getElementById('alterarCorParagrafos').addEventListener('click', function() {
+            // Seleciona todos os parágrafos
+            const paragrafos = document.querySelectorAll('p');
+            
+            // Altera a cor de todos os parágrafos para vermelho adicionando a classe 'vermelho'
+            paragrafos.forEach(function(paragrafo) {
+                paragrafo.classList.add('vermelho');
+            });
+        });
+
+        // alternar visibilidade das divs
+        document.getElementById('alternarVisibilidadeDivs').addEventListener('click', function() {
+            // Seleciona todas as divs com a classe 'div-item'
+            const divs = document.querySelectorAll('.div-item');
+            
+            // Alterna a visibilidade de cada div
+            divs.forEach(function(div) {
+                if (div.style.display === 'none') {
+                    div.style.display = 'block'; // Torna a div visível
+                } else {
+                    div.style.display = 'none'; // Torna a div invisível
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>

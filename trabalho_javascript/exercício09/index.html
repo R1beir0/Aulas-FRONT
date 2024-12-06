@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Carrossel de Gatinhos</title>
+    <style>
+        .carrossel {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+            margin: 0 auto;
+        }
+
+        .imagens {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+
+        .imagem {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .botao {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            cursor: pointer;
+            font-size: 20px;
+            border: none;
+        }
+
+        #prev {
+            left: 10px;
+        }
+
+        #next {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Carrossel de Gatinhos</h1>
+
+    <div class="carrossel">
+        <!-- Container das imagens -->
+        <div class="imagens">
+            <img src="foto-1.png" class="imagem" alt="Gatinho 1">
+            <img src="gatinhos-fofos_421632-5997.avif" class="imagem" alt="Gatinho 2">
+            <img src="images.jpg" class="imagem" alt="Gatinho 3">
+            <img src="65d28dcfe196cdf4588af1d77307d196.jpg" class="imagem" alt="Gatinho 4">
+            <img src="foto-1.png" class="imagem" alt="Gatinho 5">
+            <img src="tom-é-o-gato-mais-bobo-do-mundo-v0-9m3qkvx5grqc1.webp" class="imagem" alt="Gatinho 6">
+            <img src="post-para-compartir-fotos-estilo-meme-de-sus-gatos-v0-blx4dwung8bd1.webp" class="imagem" alt="Gatinho 7">
+        </div>
+
+        <!-- Botões -->
+        <button id="prev" class="botao">&#10094;</button>
+        <button id="next" class="botao">&#10095;</button>
+    </div>
+
+    <script>
+        // Selecionando os elementos
+        const imagens = document.querySelectorAll('.imagem');
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        const imagensContainer = document.querySelector('.imagens');
+
+        let indiceAtual = 0; // Índice da imagem visível atualmente
+
+        // Função para mostrar a imagem atual e ocultar as outras
+        function atualizarCarrossel() {
+            // Faz a transição para a imagem atual
+            imagensContainer.style.transform = `translateX(-${indiceAtual * 300}px)`;
+        }
+
+        // Função para mostrar a próxima imagem
+        nextButton.addEventListener('click', function() {
+            if (indiceAtual < imagens.length - 1) {
+                indiceAtual++; // Avança para a próxima imagem
+            } else {
+                indiceAtual = 0; // Se for a última imagem, vai para a primeira
+            }
+            atualizarCarrossel();
+        });
+
+        // Função para mostrar a imagem anterior
+        prevButton.addEventListener('click', function() {
+            if (indiceAtual > 0) {
+                indiceAtual--; // Volta para a imagem anterior
+            } else {
+                indiceAtual = imagens.length - 1; // Se for a primeira imagem, vai para a última
+            }
+            atualizarCarrossel();
+        });
+
+        // Inicializa o carrossel mostrando a primeira imagem
+        atualizarCarrossel();
+    </script>
+
+</body>
+</html>

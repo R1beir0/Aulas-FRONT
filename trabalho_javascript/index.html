@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de fixação</title>
+</head>
+<body>
+    <!-- 01 -->
+    <h1 id="titulo"> Título </h1>
+    <button onclick="tituloAlterado()">clique</button>
+    <P id="titulo"></P>
+    <div class="paragrafos">
+     <p id="p"> Parágrafo 01 </p>
+     <p id="p2"> Parágrafo 02 </p>
+     <p id="p3"> Parágrafo 03 </p>
+    </div>
+
+
+    <!-- 03 -->
+      <!-- Campo de entrada -->
+      <input type="text" id="itemInput" placeholder="Digite o item">
+      <!-- Botão para adicionar o item à lista -->
+      <button id="adicionarButton">Adicionar a sua lista de compras</button>
+  
+      <!-- Lista onde os itens serão exibidos -->
+      <ul id="listaDeCompras"></ul>
+
+
+     <!-- 5 -->
+    <button id="botaoAlerta">Click</button>
+    <button id="botaoAlterarTexto">Texto alterado!</button>
+    <p id="paragrafo">Texto original</p>
+      
+
+    <!-- 6 -->
+    
+    <style>
+        /*  claro */
+        body.claro {
+            background-color: white;
+            color: black;
+        }
+
+        /*  escuro */
+        body.escuro {
+            background-color: black;
+            color: white;
+        }
+
+        /* botão */
+        #alternarTema {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #alternarTema:hover {
+            background-color: #fc0000;
+        }
+    </style>
+</head>
+<body class="claro">
+    <p>Altere o tema da sua página! </p>
+    <button id="alternarTema">Alternar Tema</button>
+
+
+    <!-- 7 -->
+    
+
+<h1>Minha Lista dinâmica</h1>
+<!-- Campo de entrada -->
+<input type="text" id="input" placeholder="Digite o item">
+<!-- Botão para adicionar o item à lista -->
+<button id="adicionarBtn">Adicionar a sua lista</button>
+
+<!-- Lista onde os itens serão exibidos -->
+<ul id="dinamica"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
