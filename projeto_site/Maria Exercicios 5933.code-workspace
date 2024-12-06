@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../projeto_site_CSS"
+		},
+		{
+			"path": "../Maria_Exercicios_5933"
+		},
+		{
+			"path": "../trabalho_javascript"
+		},
+		{
+			"path": "../professorLeo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "professorLeo"
+	}
+}
