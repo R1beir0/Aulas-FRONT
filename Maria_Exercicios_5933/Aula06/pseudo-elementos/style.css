@@ -1,0 +1,35 @@
+/*p{
+    font-size: 12px;
+}*/
+
+
+ p:first-letter{
+font-size: 300%;
+}
+
+
+p::after {
+    content:url(imagem.jpg); 
+}
+
+
+  h1::first-letter {
+    color:rgb(135, 0, 231);
+    font-size: xx-large;
+  } 
+
+  h2::first-line{
+color: cadetblue;
+font-variant: small-caps;
+  }
+
+  h3::before {
+    content: url(sol.jpg);
+  }
+
+::selection {
+color:red;
+background-color: rgb(63, 31, 31);
+  }
+  
+ 

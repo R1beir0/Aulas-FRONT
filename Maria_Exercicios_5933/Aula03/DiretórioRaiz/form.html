@@ -1,0 +1,79 @@
+<html>
+    <head> 
+        <title> Form </title>
+    </head>
+
+    <body>
+        <h1> Formulário de Contato </h1>
+        <form action="resultado.html" method="get">  
+
+            <p> 
+                Nome:<input type="text"
+                Name:"nome" size="25"
+                />
+            </p>
+
+            <p>
+                Sobrenome:<input type="text"
+                name:"sobrenome"
+                size="40"/>
+            </p>
+            <!--INPUT-->
+             <p>
+                <input type="radio" name="estado" value="solteiro"
+                />Solteiro<br/>
+                <input type="radio" name="estado" value="casado"
+                />casado<br/>
+                <input type="radio" name="estado" value="Divorciado"
+                />Divorciado<br/>
+                <input type="radio" name="estado" value="Viuvo"
+                />Viúvo<br/>
+
+
+                <!-- OPTION-->
+                <p>
+                    Estado Civil
+                    <select name="Estado Civil">
+                    <option value="solteiro">Solteiro</option>
+                    <option value="casado">Casado</option>
+                    <option value="divorciado">Divorciado</option>
+                    <option value="viúvo">Viúvo</option>
+                </select>
+                </p>
+             </p>
+
+
+             <!-- VISIVEL-->
+             <p>
+                Estado Civil
+                <select  multiple name="Estado Civil">
+                <option value="solteiro">Solteiro</option>
+                <option value="casado">Casado</option>
+                <option value="divorciado">Divorciado</option>
+                <option value="viúvo">Viúvo</option>
+            </select>
+            </p>
+
+
+             <p>
+                Senha <input type="password"
+                name="senha"
+                size="25"/>
+             </p>
+            <p>
+                <input type="checkbox"
+                name="Aceite" size="25"/> Ativar proteção de senha
+             </p>
+
+             <p>
+                <textarea name="mensagem" rows="4"
+                cols="20"> Digite sua mensagem aqui</textarea>
+             </p>
+
+            <p>
+             <input type="submit" velue="Enviar"/>
+             <input type="reset" value="Cancelar"/>
+            </p>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+#nomeResultado {
+    background-color: aqua;
+    font-size: 30px;
+    display: inline;
+    border-radius: 15;
+    margin: 10;
+}
+#emailResultado {
+    background-color: aqua;
+    font-size: 30px;
+    display: inline;
+    border-radius: 15;
+    margin: 10;
+}
+#senhaResultado {
+    background-color: aqua;
+    font-size: 30px;
+    display: inline;
+    border-radius: 15;
+    margin: 10;
+}
+
+#resultado{
+    padding: 15;
+}
+
+#nome::first-letter {
+    background-color: aqua;
+    font-size: 40px;
+}
+#email::first-letter {
+    background-color: aqua;
+    font-size: 40px;
+}
+#senha::first-letter {
+    background-color: aqua;
+    font-size: 40px;
+}

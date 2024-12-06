@@ -1,0 +1,24 @@
+.campo{
+    margin-bottom: 1em;
+}
+
+.campo label{
+    margin-bottom: 0.2em;
+    color:#666;
+    display: block;
+}
+/*Como todos os campos estão agrupados dentro destes elementos os estilos como margens de forma uniforme*/
+
+fieldset.grupo.campo{
+    float: left;
+    margin-right: 1em;
+}
+
+body{
+    counter-reset: num;
+}
+p.numbered:before{
+    content: counter(num) ": "; 
+    counter-increment: num;
+    font-weight: bold;
+}

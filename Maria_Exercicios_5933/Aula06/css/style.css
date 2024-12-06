@@ -1,0 +1,56 @@
+div.margem {
+  background: #990000;
+  color: #fff;
+  margin: 10px;
+}
+
+.borda {
+  border: 15px solid rgb(161, 28, 28);
+}
+
+.margemInterna {
+  background-color: black;
+  color: #fff;
+}
+
+div.margem2 {
+  background-color: blue;
+  color: cornflowerblue;
+  padding: 10px;
+}
+
+div.margem3 {
+  background-color: darkcyan;
+  color: black;
+  margin: 5px;
+}
+
+div.margem4 {
+  background-color: darkcyan;
+  color: black;
+  margin: 10px;
+}
+
+p.borda1 {
+  border-top-width: 3px;
+  border-top-style: solid;
+  border-top-color: #000;
+}
+
+.bordathin {
+  border: thin solid blue;
+  /*padding:10px;*/
+  margin-bottom: 20px;
+}
+
+.bordamedium {
+  border: medium solid blue;
+  /*padding:10px;*/
+  margin-bottom: 20px;
+}
+
+.bordathick {
+  border: thick solid blue;
+  /*padding:10px;*/
+  margin-bottom: 20px;
+}

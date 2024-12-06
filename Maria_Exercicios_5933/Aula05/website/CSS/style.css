@@ -1,0 +1,52 @@
+/*Meu primeiro website com estilo*/
+
+/* #cabecalho {
+    color: brown;
+    font-size: 30;
+}
+
+#conteudo {
+    background-color: darkred;
+    font-size:large;
+    color: aliceblue;
+}
+
+#rodape {
+    background-color: maroon;
+    color: beige;
+    font-size:large;
+}
+
+.destaque {
+    background-color: cadetblue;
+    border: 2px;
+    border-style: double;
+    color: darkslategrey;
+    font-size:large;
+}
+
+p.destaque{
+   background-color: rgb(166, 228, 228); 
+} */
+
+a:hover {
+    color: aliceblue;
+}
+
+
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+a:link {
+    color: blue;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
