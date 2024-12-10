@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color:rgb(29, 54, 12);
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+
+canvas{
+    border: 10px solid #000; /*Bordas do canvas*/
+}
+

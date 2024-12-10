@@ -1,0 +1,38 @@
+body{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 2px;
+    color: rgb(255, 255, 255);
+    background-image: url(ceu.jpg);
+    margin: 0px;
+    padding: 0px;
+}
+
+.cep-container{
+background-color: rgba(26, 59, 98, 0.668);
+margin: 0;
+padding: 50px;
+border: 5px;
+border-radius: 20px;
+
+
+}
+
+.input-field{
+    background-color:rgb(255, 255, 255);
+    border-bottom-left-radius: 5px;
+  
+}
+.button{
+background-color: black;
+color: aliceblue;
+}
+#resultado{
+    background-color: rgba(0, 0, 0, 0.654);
+    color: aliceblue;
+    padding: 5px;
+    text-align: left;
+    border-radius: 2px;
+}

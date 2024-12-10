@@ -1,0 +1,31 @@
+/* CSS externo é subscrito pelos outros */
+
+/* OBS:
+margin = espaçamento externo
+padding= espaçamento interno 
+*/
+body{
+   background-color: black;
+    color: rgb(247, 247, 247);
+    font-size: 12pt;
+    margin: 0px;
+}
+h1{
+    color: brown;
+}
+
+button{
+    margin: 10px;
+    padding: 20px;
+    /*Arredonda a borda*/
+    border-radius: 10px;
+    /*Retira a borda*/
+    border: none;
+}
+
+button:hover{
+    background-color: darkslategrey;
+    color: aliceblue;
+    /*Cursor mãozinha*/
+    cursor:pointer;
+}

@@ -1,0 +1,32 @@
+body{
+    /*Tag font junta todas as tags fonts*/
+    font: normal 1em Arial;
+}
+
+h1{
+    font-size: 2em;
+    color: rgb(198, 76, 32);
+}
+
+h2{
+    color: brown;
+}
+/* 
+ID é único.
+class é utilizada várias vezes.
+*/
+#titulo-principal{
+    color: rgb(128, 11, 11);
+    background-color: rgba(233, 150, 122, 0.563);
+}
+
+.topico{
+    /*Propriedade que alinhamento o texto*/
+    /*Alinha para a direita*/
+    text-align: right;
+}
+
+.texto{
+    /*Ajusta o texto, justifica*/
+    text-align: justify;
+}

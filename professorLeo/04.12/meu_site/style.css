@@ -1,0 +1,210 @@
+/*Estilos para dispositivos móveis*/
+@media(max-width:768px){
+    #cabecalho-desk{
+        display: none;
+    }
+
+}
+/*Estilos para desktop*/
+@media(min-width:769px){
+    #cabecalho-mobile{
+        display: none;  /*Não exibe o cabeçalho para mobile*/
+    }
+
+}
+.cabecalho{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: rgba(110, 37, 11, 0.977);
+
+    text-align: center;
+}
+
+.cabecalho_logo{
+    padding: 1.5em;
+    width: 10.5em;
+    margin-left: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.cabecalho_menu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+.cabecalho_item-menu a{
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 1.86em 1.42em;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: fantastico;
+}
+
+.escondida{
+    display: none;
+}
+#dropdown-menu{
+    padding: 2%;
+    align-items: start;
+}
+
+#dropdown-menu a {
+    text-decoration: none;
+    font-family: fantasy;
+    color: aliceblue;
+}
+
+.banner{
+    background-image: url(img/hamburguer_artesanal-.jpg);
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+.banner-texto{
+   
+    font-family: fantastico;
+    letter-spacing: 2px;
+    color: rgba(240, 248, 255, 0.899);
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+
+.banner-texto:hover{
+    transform: translateY(-10px); 
+    box-shadow: 0 20px 30px 0 rgba(240, 248, 255, 0.899);
+}
+
+.botao-saiba-mais{
+    transition: all 0.5s ease; /*Transição suave*/
+    background-color: black;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 5px;
+    align-self: center;
+}
+.botao-saiba-mais:hover{
+    transform: translateY(-2px);
+    background-color: black;
+    box-shadow: 0 20px 30px 0 rgba(255, 255, 255, 0.626);
+}
+
+
+
+
+/*desafios*/
+
+.container-pai{
+   display: flex;
+   background-color: rgba(136, 58, 30, 0.907);
+   text-align: center;
+   flex-direction: row;
+   justify-content:space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+   padding: 10px;
+  
+  
+   
+}
+.container-filho{
+
+    width: 400px;
+    height: 400px;
+    background-color: rgba(100, 51, 16, 0.607);
+    text-align: center;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 5px;
+    color: aliceblue;
+    font-family:fantastico;
+    letter-spacing: 2px; /*Espaçamento de fonts*/
+    text-align: center;
+    font-size: 15px;
+}
+.imagem_hamburguer{
+    border-radius:50%;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+.container2{
+padding: 100px;
+
+display: flex;
+background-color: rgba(136, 58, 30, 0.907);
+justify-content:space-evenly;
+justify-content: center;
+text-align: center;
+
+
+}
+.texto{
+color: aliceblue;
+margin-right: 100px;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(51,32,6,0.7867108513327206) 0%, rgba(53,38,17,0.6214447448901436) 63%, rgba(252,176,69,0.09483410063244047) 65%);
+padding: 20px;
+border-radius: 15px;
+font-family: fantastico;
+letter-spacing: 2px;
+}
+
+.imagem-filha{
+    border-radius: 50%;
+}
+
+.imagem-filha:hover{
+    transform: scale(1.1); /*FAZ A ANIMAÇÃO*/
+    transition: all 0.5s ease; /* faz com que fique uma transição suave*/
+    box-shadow: 0 20px 30px 0 rgba(243, 243, 243, 0.669);
+    width: 270px;
+    height: 270px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+ 
+
+.footer{
+    background-color: rgba(110, 37, 11, 0.977);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/*Adicionando font baixada*/
+@font-face{
+    font-family: 'Fantastico';
+    src: url(../fontes/Super\ Shiny.ttf);
+}
